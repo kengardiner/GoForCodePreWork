@@ -5,3 +5,7 @@ h1 {
 tr {
     text-align: center;
 }
+
+li {
+    font-style: italic;
+}
