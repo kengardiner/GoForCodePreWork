@@ -1,12 +1,20 @@
 <!DOCTYPE html>
  <html>
      <head>
-         <title>Ken's Restaurant - Contact Us</title>
+         <title>Ken's Restaurant | Contact Us</title>
+         <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
+         <style>
+             .submit {
+                     display: block;
+                      margin: 0 auto;
+                 } 
+ 
+         </style>
      </head>
      <body>
-         <center>
+         <header>
              <h1>Ken's Restaurant</h1><hr/><br/>
-         </center>
+         </header>
          <a href="index.html">Home</a>&nbsp
          <a href="menu.html">Menu</a>&nbsp
          <a href="contact.html">Contact Us</a>
@@ -29,7 +37,7 @@
              </select>
              <br/><br/>
              Additional Information:
-             <textarea name="Additionalinformation" rows="6"></textarea><br/><br/>
+             <textarea name="Additionalinformation" rows="5"></textarea><br/><br/>
              Have you been to the restaurant?
              <input type="radio" name="previousvst" value="No"checked/>No
              <input type="radio" name="previousvst" value="Yes"/>Yes
@@ -41,15 +49,13 @@
              <input type="checkbox" name="th" value="Th"/>Th
              <input type="checkbox" name="f" value="F"/>F
              <br/><br/>
-			 <center>
-             <input type="Submit" value = "Send Request"/>
-			 </center>
+             <input class="submit" type="Submit" value = "Send Request"/>
          </form>
 		 <hr/>
-     <center>
+     <footer>
          <h3>14 Calef Highway, Barrington, NH, 03825</h3>
          <h3>603-555-5555</h>
-     </center>
+     </footer>
 		 <hr/>
      </body>
  </html>
