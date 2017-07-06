@@ -3,9 +3,32 @@ h1 {
 }
 
 tr {
+    
     text-align: center;
+}
+
+tbody td {
+    text-align: center;
+    font-style: italic;
+}
+
+tbody tr {
+  background-color:olivedrab;
 }
 
 li {
     font-style: italic;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: purple;
+}
+a:active{
+    text-decoration: none;
 }
