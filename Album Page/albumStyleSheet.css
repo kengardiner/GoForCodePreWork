@@ -12,10 +12,6 @@ tbody td {
     font-style: italic;
 }
 
-tbody tr {
-  background-color:olivedrabs;
-}
-
 li {
     font-style: italic;
 }
@@ -31,4 +27,12 @@ a:hover{
 }
 a:active{
     text-decoration: none;
+}
+}
+tbody tr:nth-child(even) {
+  background-color:white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightblue;
 }
