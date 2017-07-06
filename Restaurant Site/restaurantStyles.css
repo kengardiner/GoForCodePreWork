@@ -3,6 +3,17 @@ header {
     font-size: 15px
 }
 
+a:visited{
+    color:purple;
+}
+a:hover{
+    font-weight: bold;
+}
+a:active{
+    text-decoration: none;
+    color: orangered;
+}
+
 footer {
     text-align: center;
     font-size: 15px;
